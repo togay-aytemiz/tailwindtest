@@ -7,7 +7,7 @@ const Hero = () => {
         <p className="uppercase text-[#00df9a] font-bold">
           Growing with data analytics
         </p>
-        <h1 className="md: text-7xl sm:text-6xl text-4xl font-bold">
+        <h1 className="md:text-7xl sm:text-6xl text-5xl font-bold">
           Grow with data.
         </h1>
         <div className="flex justify-center items-center gap-2">
@@ -22,9 +22,13 @@ const Hero = () => {
             loop
           />
         </div>
-        <p className="md: text-2xl text-xl font-bold text-gray-600">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        <p className="md: text-2xl text-xl font-bold text-gray-600 mx-8">
+          Monitor your data analytics to increase revenue for BTB, BTC and SAAS
+          platforms.
         </p>
+        <button className="bg-[#00df9a] w-[200px] rounded-lg font-medium my-6 mx-auto px-8 py-3 text-black">
+          Get Started
+        </button>
       </div>
     </div>
   );
